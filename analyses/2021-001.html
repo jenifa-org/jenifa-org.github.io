@@ -1,0 +1,92 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="../css/jenifa.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+</script>
+
+</head>
+<body>
+
+<div class="sidebar">
+
+<ul class="navbar">
+    <li><a href="../analyses.html">Analyses</a></li>
+    <li><a href="../about.html">About</a></li>
+</ul>
+
+<div class="sidebar-extra">
+
+
+</div>
+</div>
+
+<div class="content">
+
+<div class="analysis-header">
+    <div class="analysis-title">2021-001 &mdash; The $\overline{B} \to \pi$ form factors from QCD and their impact on $|V_{ub}|$
+</div>
+    <div class="analysis-link"><a href="2021-001.yaml">[source link]</a></div>
+</div>
+<div class="analysis-body">
+    <h3>Prior</h3>
+    The prior is comprised of the following components:
+    <table>
+        <thead>
+            <tr>
+                <th class="heading" rowspan="2">qualified name</th>
+                <th class="heading" colspan="2">interval</th>
+                <th class="heading" rowspan="2">type</th>
+            </tr>
+            <tr>
+                <th class="heading">min</th>
+                <th class="heading">max</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td><a href=https://eos.github.io/doc/parameters.html#ckmcocoabspovunubpc>CKM::abs(V_ub)</a></td>
+                <td>0.003</td>
+                <td>0.0045</td>
+                <td>uniform</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h3>Likelihood</h3>
+    The likelihood is comprised of the following components:
+    <dl>
+    
+        <dt>Belle:2010A</dt>
+        <dd>
+            <ul>
+            
+                <li><a href=https://eos.github.io/doc/constraints.html#b^0mmtopi^pplnucocobr[0.0,4.0]atbabarco2010a>B^0-&gt;pi^+lnu::BR[0.0,4.0]@BaBar:2010A</a></li>
+            
+                <li><a href=https://eos.github.io/doc/constraints.html#b^0mmtopi^pplnucocobr[4.0,8.0]atbabarco2010a>B^0-&gt;pi^+lnu::BR[4.0,8.0]@BaBar:2010A</a></li>
+            
+                <li><a href=https://eos.github.io/doc/constraints.html#b^0mmtopi^pplnucocobr[8.0,12.0]atbabarco2010a>B^0-&gt;pi^+lnu::BR[8.0,12.0]@BaBar:2010A</a></li>
+            
+            </ul>
+        </dd>
+    
+    </dl>
+<div>
+
+</div>
+</body>
+</html>
